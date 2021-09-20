@@ -4,12 +4,12 @@ public class Line {
     private Point pointA;
     private Point pointB;
 
-    public Line(Point a, Point b){
+    public Line(Point a, Point b) {
         pointA = a;
         pointB = b;
     }
 
-    public int calculateLength(){
+    public int calculateLength() {
         int x,y;
         int x1 = pointA.x;
         int y1 = pointA.y;
@@ -23,4 +23,5 @@ public class Line {
         return distance;
     }
 }
+
 
