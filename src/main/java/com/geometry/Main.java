@@ -8,5 +8,7 @@ public class Main {
         Point pointb = new Point(-2, -5);
         Line line = new Line(point, pointb);
         line.calculateLength();
+
     }
 }
+
